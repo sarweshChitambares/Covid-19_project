@@ -1,0 +1,37 @@
+.dashboard{
+    background-image: url('../img/corona.gif');
+    padding: 120px;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+.menu{
+    margin: 0;
+    padding: 30px;
+    display: inline-flex;
+   
+    color: chocolate;
+    list-style: none;
+}
+.menu li{
+    padding: 15px;
+    margin-left: 20px;
+    color: chartreuse;
+    background-color: white;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.menu li:hover{
+    color: chartreuse;
+    background-color: red;
+}
+.dashboard h3{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+.dashboard h3 b{
+    color: green;
+}
